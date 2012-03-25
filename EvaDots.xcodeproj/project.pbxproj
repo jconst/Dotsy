@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* EvaDotsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* EvaDotsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* EvaDotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* EvaDotsViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* EvaDotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* EvaDotsViewController.m */; };
+		5F14BB9C13DF590600DA58D8 /* Codevs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F14BB9B13DF590600DA58D8 /* Codevs.png */; };
+		5FE34F7E14FD3B98007B7D81 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE34F7B14FD3B88007B7D81 /* iAd.framework */; };
+		5FE34F8014FD4086007B7D81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE34F7F14FD4086007B7D81 /* Icon.png */; };
+		5FE34F8814FD4363007B7D81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE34F8714FD4363007B7D81 /* Default.png */; };
+		5FE34F8B14FD43D7007B7D81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE34F8914FD436B007B7D81 /* Default@2x.png */; };
+		5FE34F8D14FD4424007B7D81 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE34F8C14FD4424007B7D81 /* Icon@2x.png */; };
+		7C9C4820135660960038F97E /* MenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9C481F135660960038F97E /* MenuButton.png */; };
+		7C9C4824135665030038F97E /* MenuButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9C4823135665030038F97E /* MenuButtonPressed.png */; };
+		7C9C48801357CFE40038F97E /* HowToPlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9C487F1357CFE40038F97E /* HowToPlayButton.png */; };
+		7C9EAF41134EB22200D6B939 /* AboutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF31134EB22200D6B939 /* AboutButton.png */; };
+		7C9EAF42134EB22200D6B939 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF32134EB22200D6B939 /* arrow.png */; };
+		7C9EAF43134EB22200D6B939 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF33134EB22200D6B939 /* background.png */; };
+		7C9EAF44134EB22200D6B939 /* BlueDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF34134EB22200D6B939 /* BlueDot.png */; };
+		7C9EAF45134EB22200D6B939 /* GreenDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF35134EB22200D6B939 /* GreenDot.png */; };
+		7C9EAF46134EB22200D6B939 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF36134EB22200D6B939 /* header.png */; };
+		7C9EAF47134EB22200D6B939 /* HighScoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF37134EB22200D6B939 /* HighScoresButton.png */; };
+		7C9EAF48134EB22200D6B939 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF38134EB22200D6B939 /* Logo.png */; };
+		7C9EAF49134EB22200D6B939 /* OrangeDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF39134EB22200D6B939 /* OrangeDot.png */; };
+		7C9EAF4A134EB22200D6B939 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF3A134EB22200D6B939 /* pause.png */; };
+		7C9EAF4B134EB22200D6B939 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF3B134EB22200D6B939 /* play.png */; };
+		7C9EAF4C134EB22200D6B939 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF3C134EB22200D6B939 /* PlayButton.png */; };
+		7C9EAF4D134EB22200D6B939 /* PurpleDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF3D134EB22200D6B939 /* PurpleDot.png */; };
+		7C9EAF4E134EB22200D6B939 /* RedDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF3E134EB22200D6B939 /* RedDot.png */; };
+		7C9EAF50134EB22200D6B939 /* YellowDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EAF40134EB22200D6B939 /* YellowDot.png */; };
+		7C9EB04A1351075A00D6B939 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB0481351075A00D6B939 /* SettingsViewController.m */; };
+		7C9EB04B1351075A00D6B939 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EB0491351075A00D6B939 /* SettingsViewController.xib */; };
+		7C9EB05F13510B2800D6B939 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB05D13510B2800D6B939 /* AboutViewController.m */; };
+		7C9EB06013510B2800D6B939 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EB05E13510B2800D6B939 /* AboutViewController.xib */; };
+		7C9EB0AD135203CC00D6B939 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB0AB135203CC00D6B939 /* HighScoresViewController.m */; };
+		7C9EB0AE135203CC00D6B939 /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EB0AC135203CC00D6B939 /* HighScoresViewController.xib */; };
+		7C9EB18E135290CD00D6B939 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EB18D135290CD00D6B939 /* GameKit.framework */; };
+		7C9EB1B9135292E300D6B939 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB1B8135292E300D6B939 /* GameCenterManager.m */; };
+		7CBEB9371359DD96007B8EA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEB9361359DD96007B8EA8 /* MessageUI.framework */; };
+		7CBEB9411359E155007B8EA8 /* ZackTheWebLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBEB9401359E155007B8EA8 /* ZackTheWebLogo.png */; };
+		7CBEB94A1359E541007B8EA8 /* LargeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBEB9491359E541007B8EA8 /* LargeIcon.png */; };
+		7CCE3406135A111A00566DC9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE3405135A111A00566DC9 /* Icon.png */; };
+		7CF57043133183C2008DAB83 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF57041133183C2008DAB83 /* GameViewController.m */; };
+		7CF57044133183C2008DAB83 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF57042133183C2008DAB83 /* GameViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* EvaDotsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaDotsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* EvaDotsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaDotsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* EvaDots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvaDots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* EvaDotsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EvaDotsViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* EvaDotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaDotsViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* EvaDotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaDotsViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* EvaDots_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaDots_Prefix.pch; sourceTree = "<group>"; };
+		5F14BB9B13DF590600DA58D8 /* Codevs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Codevs.png; sourceTree = "<group>"; };
+		5FE34F7B14FD3B88007B7D81 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5FE34F7F14FD4086007B7D81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5FE34F8714FD4363007B7D81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5FE34F8914FD436B007B7D81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5FE34F8C14FD4424007B7D81 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7C9C481F135660960038F97E /* MenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuButton.png; sourceTree = "<group>"; };
+		7C9C4823135665030038F97E /* MenuButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuButtonPressed.png; sourceTree = "<group>"; };
+		7C9C487F1357CFE40038F97E /* HowToPlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HowToPlayButton.png; sourceTree = "<group>"; };
+		7C9EAF31134EB22200D6B939 /* AboutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutButton.png; sourceTree = "<group>"; };
+		7C9EAF32134EB22200D6B939 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		7C9EAF33134EB22200D6B939 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7C9EAF34134EB22200D6B939 /* BlueDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueDot.png; sourceTree = "<group>"; };
+		7C9EAF35134EB22200D6B939 /* GreenDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenDot.png; sourceTree = "<group>"; };
+		7C9EAF36134EB22200D6B939 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		7C9EAF37134EB22200D6B939 /* HighScoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighScoresButton.png; sourceTree = "<group>"; };
+		7C9EAF38134EB22200D6B939 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		7C9EAF39134EB22200D6B939 /* OrangeDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeDot.png; sourceTree = "<group>"; };
+		7C9EAF3A134EB22200D6B939 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		7C9EAF3B134EB22200D6B939 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		7C9EAF3C134EB22200D6B939 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		7C9EAF3D134EB22200D6B939 /* PurpleDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleDot.png; sourceTree = "<group>"; };
+		7C9EAF3E134EB22200D6B939 /* RedDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedDot.png; sourceTree = "<group>"; };
+		7C9EAF40134EB22200D6B939 /* YellowDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowDot.png; sourceTree = "<group>"; };
+		7C9EB0471351075A00D6B939 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		7C9EB0481351075A00D6B939 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		7C9EB0491351075A00D6B939 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		7C9EB05C13510B2800D6B939 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		7C9EB05D13510B2800D6B939 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		7C9EB05E13510B2800D6B939 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		7C9EB0AA135203CC00D6B939 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		7C9EB0AB135203CC00D6B939 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		7C9EB0AC135203CC00D6B939 /* HighScoresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HighScoresViewController.xib; path = Classes/HighScoresViewController.xib; sourceTree = "<group>"; };
+		7C9EB18D135290CD00D6B939 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7C9EB1B7135292E300D6B939 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		7C9EB1B8135292E300D6B939 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		7CBEB9361359DD96007B8EA8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7CBEB9401359E155007B8EA8 /* ZackTheWebLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZackTheWebLogo.png; sourceTree = "<group>"; };
+		7CBEB9491359E541007B8EA8 /* LargeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeIcon.png; sourceTree = "<group>"; };
+		7CCE3405135A111A00566DC9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7CF57040133183C2008DAB83 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7CF57041133183C2008DAB83 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7CF57042133183C2008DAB83 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameViewController.xib; path = Classes/GameViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* EvaDots-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EvaDots-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				5FE34F7E14FD3B98007B7D81 /* iAd.framework in Frameworks */,
+				7C9EB18E135290CD00D6B939 /* GameKit.framework in Frameworks */,
+				7CBEB9371359DD96007B8EA8 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EB05C13510B2800D6B939 /* AboutViewController.h */,
+				7C9EB05D13510B2800D6B939 /* AboutViewController.m */,
+				1D3623240D0F684500981E51 /* EvaDotsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* EvaDotsAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* EvaDotsViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* EvaDotsViewController.m */,
+				7C9EB1B7135292E300D6B939 /* GameCenterManager.h */,
+				7C9EB1B8135292E300D6B939 /* GameCenterManager.m */,
+				7CF57040133183C2008DAB83 /* GameViewController.h */,
+				7CF57041133183C2008DAB83 /* GameViewController.m */,
+				7C9EB0AA135203CC00D6B939 /* HighScoresViewController.h */,
+				7C9EB0AB135203CC00D6B939 /* HighScoresViewController.m */,
+				7C9EB0471351075A00D6B939 /* SettingsViewController.h */,
+				7C9EB0481351075A00D6B939 /* SettingsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* EvaDots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5FE34F8C14FD4424007B7D81 /* Icon@2x.png */,
+				5FE34F8914FD436B007B7D81 /* Default@2x.png */,
+				5FE34F8714FD4363007B7D81 /* Default.png */,
+				5FE34F7F14FD4086007B7D81 /* Icon.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* EvaDots_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EAF30134EB22200D6B939 /* Images */,
+				7C9EB05E13510B2800D6B939 /* AboutViewController.xib */,
+				7CF57042133183C2008DAB83 /* GameViewController.xib */,
+				7C9EB0AC135203CC00D6B939 /* HighScoresViewController.xib */,
+				2899E5210DE3E06400AC0155 /* EvaDotsViewController.xib */,
+				7C9EB0491351075A00D6B939 /* SettingsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* EvaDots-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE34F7B14FD3B88007B7D81 /* iAd.framework */,
+				7CBEB9361359DD96007B8EA8 /* MessageUI.framework */,
+				7C9EB18D135290CD00D6B939 /* GameKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9EAF30134EB22200D6B939 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7C9C4823135665030038F97E /* MenuButtonPressed.png */,
+				7C9EAF31134EB22200D6B939 /* AboutButton.png */,
+				7C9EAF32134EB22200D6B939 /* arrow.png */,
+				7C9EAF33134EB22200D6B939 /* background.png */,
+				7C9EAF34134EB22200D6B939 /* BlueDot.png */,
+				5F14BB9B13DF590600DA58D8 /* Codevs.png */,
+				7C9EAF35134EB22200D6B939 /* GreenDot.png */,
+				7C9EAF36134EB22200D6B939 /* header.png */,
+				7C9EAF37134EB22200D6B939 /* HighScoresButton.png */,
+				7C9C487F1357CFE40038F97E /* HowToPlayButton.png */,
+				7CCE3405135A111A00566DC9 /* Icon.png */,
+				7CBEB9491359E541007B8EA8 /* LargeIcon.png */,
+				7C9EAF38134EB22200D6B939 /* Logo.png */,
+				7C9C481F135660960038F97E /* MenuButton.png */,
+				7C9EAF39134EB22200D6B939 /* OrangeDot.png */,
+				7C9EAF3A134EB22200D6B939 /* pause.png */,
+				7C9EAF3B134EB22200D6B939 /* play.png */,
+				7C9EAF3C134EB22200D6B939 /* PlayButton.png */,
+				7C9EAF3D134EB22200D6B939 /* PurpleDot.png */,
+				7C9EAF3E134EB22200D6B939 /* RedDot.png */,
+				7C9EAF40134EB22200D6B939 /* YellowDot.png */,
+				7CBEB9401359E155007B8EA8 /* ZackTheWebLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* EvaDots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EvaDots" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvaDots;
+			productName = EvaDots;
+			productReference = 1D6058910D05DD3D006BFB54 /* EvaDots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EvaDots" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* EvaDots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* EvaDotsViewController.xib in Resources */,
+				7CF57044133183C2008DAB83 /* GameViewController.xib in Resources */,
+				7C9EAF41134EB22200D6B939 /* AboutButton.png in Resources */,
+				7C9EAF42134EB22200D6B939 /* arrow.png in Resources */,
+				7C9EAF43134EB22200D6B939 /* background.png in Resources */,
+				7C9EAF44134EB22200D6B939 /* BlueDot.png in Resources */,
+				7C9EAF45134EB22200D6B939 /* GreenDot.png in Resources */,
+				7C9EAF46134EB22200D6B939 /* header.png in Resources */,
+				7C9EAF47134EB22200D6B939 /* HighScoresButton.png in Resources */,
+				7C9EAF48134EB22200D6B939 /* Logo.png in Resources */,
+				7C9EAF49134EB22200D6B939 /* OrangeDot.png in Resources */,
+				7C9EAF4A134EB22200D6B939 /* pause.png in Resources */,
+				7C9EAF4B134EB22200D6B939 /* play.png in Resources */,
+				7C9EAF4C134EB22200D6B939 /* PlayButton.png in Resources */,
+				7C9EAF4D134EB22200D6B939 /* PurpleDot.png in Resources */,
+				7C9EAF4E134EB22200D6B939 /* RedDot.png in Resources */,
+				7C9EAF50134EB22200D6B939 /* YellowDot.png in Resources */,
+				7C9EB04B1351075A00D6B939 /* SettingsViewController.xib in Resources */,
+				7C9EB06013510B2800D6B939 /* AboutViewController.xib in Resources */,
+				7C9EB0AE135203CC00D6B939 /* HighScoresViewController.xib in Resources */,
+				7C9C4820135660960038F97E /* MenuButton.png in Resources */,
+				7C9C4824135665030038F97E /* MenuButtonPressed.png in Resources */,
+				7C9C48801357CFE40038F97E /* HowToPlayButton.png in Resources */,
+				7CBEB9411359E155007B8EA8 /* ZackTheWebLogo.png in Resources */,
+				7CBEB94A1359E541007B8EA8 /* LargeIcon.png in Resources */,
+				7CCE3406135A111A00566DC9 /* Icon.png in Resources */,
+				5F14BB9C13DF590600DA58D8 /* Codevs.png in Resources */,
+				5FE34F8014FD4086007B7D81 /* Icon.png in Resources */,
+				5FE34F8814FD4363007B7D81 /* Default.png in Resources */,
+				5FE34F8B14FD43D7007B7D81 /* Default@2x.png in Resources */,
+				5FE34F8D14FD4424007B7D81 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* EvaDotsAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* EvaDotsViewController.m in Sources */,
+				7CF57043133183C2008DAB83 /* GameViewController.m in Sources */,
+				7C9EB04A1351075A00D6B939 /* SettingsViewController.m in Sources */,
+				7C9EB05F13510B2800D6B939 /* AboutViewController.m in Sources */,
+				7C9EB0AD135203CC00D6B939 /* HighScoresViewController.m in Sources */,
+				7C9EB1B9135292E300D6B939 /* GameCenterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EvaDots_Prefix.pch;
+				INFOPLIST_FILE = "EvaDots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = EvaDots;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EvaDots_Prefix.pch;
+				INFOPLIST_FILE = "EvaDots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = EvaDots;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph Constan (EVVWZU6D52)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80BE84C2-CB42-484E-9D53-0638A5B8E192";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Robert Constan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "947671DB-2442-4278-8A9A-33A31468034D";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EvaDots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EvaDots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

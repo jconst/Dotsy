@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* EvaDotsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 338}}";
+			sepNavSelRange = "{252, 0}";
+			sepNavVisRange = "{0, 607}";
+		};
+	};
+	1D3623250D0F684500981E51 /* EvaDotsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1105}}";
+			sepNavSelRange = "{1387, 0}";
+			sepNavVisRange = "{384, 1671}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* EvaDots */ = {
+		activeExec = 0;
+		executables = (
+			7CF5703213318341008DAB83 /* EvaDots */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* EvaDotsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 494}}";
+			sepNavSelRange = "{626, 0}";
+			sepNavVisRange = "{0, 897}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* EvaDotsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 1534}}";
+			sepNavSelRange = "{1517, 0}";
+			sepNavVisRange = "{562, 959}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7CF5703213318341008DAB83 /* EvaDots */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* EvaDots */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* EvaDots */,
+		);
+		codeSenseManager = 7CF5703D13318361008DAB83 /* Code sense */;
+		executables = (
+			7CF5703213318341008DAB83 /* EvaDots */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					962,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328838321;
+			PBXWorkspaceStateSaveDate = 328838321;
+		};
+		perUserProjectItems = {
+			7C5550BE1393FB8500943924 /* PlistBookmark */ = 7C5550BE1393FB8500943924 /* PlistBookmark */;
+			7C9C486D13567D210038F97E /* PBXBookmark */ = 7C9C486D13567D210038F97E /* PBXBookmark */;
+			7C9C486E13567D210038F97E /* PBXTextBookmark */ = 7C9C486E13567D210038F97E /* PBXTextBookmark */;
+			7C9C487313567D210038F97E /* PBXTextBookmark */ = 7C9C487313567D210038F97E /* PBXTextBookmark */;
+			7C9EB06413510B5A00D6B939 /* PBXBookmark */ = 7C9EB06413510B5A00D6B939 /* PBXBookmark */;
+			7C9EB06513510B5A00D6B939 /* PBXBookmark */ = 7C9EB06513510B5A00D6B939 /* PBXBookmark */;
+			7C9EB07D135113BF00D6B939 /* PBXBookmark */ = 7C9EB07D135113BF00D6B939 /* PBXBookmark */;
+			7C9EB08A1351173500D6B939 /* PBXTextBookmark */ = 7C9EB08A1351173500D6B939 /* PBXTextBookmark */;
+			7C9EB1001352083E00D6B939 /* PBXTextBookmark */ = 7C9EB1001352083E00D6B939 /* PBXTextBookmark */;
+			7CB614C6138D9ADB00E46C3E /* PBXTextBookmark */ = 7CB614C6138D9ADB00E46C3E /* PBXTextBookmark */;
+			7CBEB94D1359E551007B8EA8 /* PBXBookmark */ = 7CBEB94D1359E551007B8EA8 /* PBXBookmark */;
+			7CBEB9521359E551007B8EA8 /* PBXTextBookmark */ = 7CBEB9521359E551007B8EA8 /* PBXTextBookmark */;
+			7CCE3415135A114D00566DC9 /* PBXBookmark */ = 7CCE3415135A114D00566DC9 /* PBXBookmark */;
+			7CCE3416135A114D00566DC9 /* PBXBookmark */ = 7CCE3416135A114D00566DC9 /* PBXBookmark */;
+			7CF2E5E71399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5E71399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5E81399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5E81399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5E91399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5E91399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5EA1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5EA1399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5EB1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5EB1399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5EC1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5EC1399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5ED1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5ED1399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5EE1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5EE1399EB71005FDBB7 /* PBXTextBookmark */;
+			7CF2E5EF1399EB71005FDBB7 /* PBXTextBookmark */ = 7CF2E5EF1399EB71005FDBB7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7CF5703C13318361008DAB83 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7C5550BE1393FB8500943924 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* EvaDots-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Joseph/Code/EvaDots/EvaDots-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	7C9C486D13567D210038F97E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C9C481F135660960038F97E /* MenuButton.png */;
+	};
+	7C9C486E13567D210038F97E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB0AA135203CC00D6B939 /* HighScoresViewController.h */;
+		name = "HighScoresViewController.h: 14";
+		rLen = 0;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	7C9C487313567D210038F97E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CF57040133183C2008DAB83 /* GameViewController.h */;
+		name = "GameViewController.h: 50";
+		rLen = 0;
+		rLoc = 1271;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 488;
+	};
+	7C9EB0471351075A00D6B939 /* SettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 320}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{0, 407}";
+		};
+	};
+	7C9EB0481351075A00D6B939 /* SettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 806}}";
+			sepNavSelRange = "{851, 0}";
+			sepNavVisRange = "{147, 1002}";
+		};
+	};
+	7C9EB05C13510B2800D6B939 /* AboutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 505}}";
+			sepNavSelRange = "{598, 0}";
+			sepNavVisRange = "{0, 598}";
+		};
+	};
+	7C9EB05D13510B2800D6B939 /* AboutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 1079}}";
+			sepNavSelRange = "{1361, 0}";
+			sepNavVisRange = "{640, 1434}";
+		};
+	};
+	7C9EB06413510B5A00D6B939 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C9EAF37134EB22200D6B939 /* HighScoresButton.png */;
+	};
+	7C9EB06513510B5A00D6B939 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C9EAF38134EB22200D6B939 /* Logo.png */;
+	};
+	7C9EB07D135113BF00D6B939 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C9EB068135112BA00D6B939 /* Codevs.png */;
+	};
+	7C9EB08A1351173500D6B939 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* EvaDotsAppDelegate.h */;
+		name = "EvaDotsAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 0;
+	};
+	7C9EB0AA135203CC00D6B939 /* HighScoresViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 516}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{0, 440}";
+		};
+	};
+	7C9EB0AB135203CC00D6B939 /* HighScoresViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 832}}";
+			sepNavSelRange = "{799, 0}";
+			sepNavVisRange = "{0, 863}";
+		};
+	};
+	7C9EB1001352083E00D6B939 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB0471351075A00D6B939 /* SettingsViewController.h */;
+		name = "SettingsViewController.h: 13";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 0;
+	};
+	7C9EB1B7135292E300D6B939 /* GameCenterManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 1157}}";
+			sepNavSelRange = "{2659, 0}";
+			sepNavVisRange = "{2503, 1245}";
+		};
+	};
+	7C9EB1B8135292E300D6B939 /* GameCenterManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 3094}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2118}";
+		};
+	};
+	7CB614C6138D9ADB00E46C3E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CF57041133183C2008DAB83 /* GameViewController.m */;
+		name = "GameViewController.m: 30";
+		rLen = 64;
+		rLoc = 848;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 5425;
+	};
+	7CBEB94D1359E551007B8EA8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C9C487F1357CFE40038F97E /* HowToPlayButton.png */;
+	};
+	7CBEB9521359E551007B8EA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB05C13510B2800D6B939 /* AboutViewController.h */;
+		name = "AboutViewController.h: 25";
+		rLen = 0;
+		rLoc = 598;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	7CCE3415135A114D00566DC9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7CBEB9491359E541007B8EA8 /* LargeIcon.png */;
+	};
+	7CCE3416135A114D00566DC9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7CCE3405135A111A00566DC9 /* Icon.png */;
+	};
+	7CF2E5E71399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB1B8135292E300D6B939 /* GameCenterManager.m */;
+		name = "GameCenterManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2118;
+		vrLoc = 0;
+	};
+	7CF2E5E81399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB1B7135292E300D6B939 /* GameCenterManager.h */;
+		name = "GameCenterManager.h: 57";
+		rLen = 0;
+		rLoc = 2659;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 2503;
+	};
+	7CF2E5E91399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* EvaDotsViewController.h */;
+		name = "EvaDotsViewController.h: 25";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 0;
+	};
+	7CF2E5EA1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* EvaDotsViewController.m */;
+		name = "EvaDotsViewController.m: 60";
+		rLen = 0;
+		rLoc = 1517;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 562;
+	};
+	7CF2E5EB1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EvaDotsAppDelegate.m */;
+		name = "EvaDotsAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 1387;
+		rType = 0;
+		vrLen = 1671;
+		vrLoc = 384;
+	};
+	7CF2E5EC1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB05D13510B2800D6B939 /* AboutViewController.m */;
+		name = "AboutViewController.m: 44";
+		rLen = 0;
+		rLoc = 1361;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 640;
+	};
+	7CF2E5ED1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB0481351075A00D6B939 /* SettingsViewController.m */;
+		name = "SettingsViewController.m: 36";
+		rLen = 0;
+		rLoc = 851;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 147;
+	};
+	7CF2E5EE1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C9EB0AB135203CC00D6B939 /* HighScoresViewController.m */;
+		name = "HighScoresViewController.m: 30";
+		rLen = 0;
+		rLoc = 799;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 0;
+	};
+	7CF2E5EF1399EB71005FDBB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CF57041133183C2008DAB83 /* GameViewController.m */;
+		name = "GameViewController.m: 22";
+		rLen = 272;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 0;
+	};
+	7CF5703213318341008DAB83 /* EvaDots */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EvaDots;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7CF5703C13318361008DAB83 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7CF5703D13318361008DAB83 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7CF57040133183C2008DAB83 /* GameViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 832}}";
+			sepNavSelRange = "{1271, 0}";
+			sepNavVisRange = "{488, 1196}";
+		};
+	};
+	7CF57041133183C2008DAB83 /* GameViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1140, 3536}}";
+			sepNavSelRange = "{574, 272}";
+			sepNavVisRange = "{0, 1267}";
+		};
+	};
+}

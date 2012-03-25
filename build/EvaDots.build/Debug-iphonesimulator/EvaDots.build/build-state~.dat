@@ -1,0 +1,288 @@
+TEvaDots
+v7
+r0
+t322012752.026143
+cCheck dependencies
+cProcessInfoPlistFile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/Info.plist EvaDots-Info.plist
+cCompileXIB /Users/Joseph/Documents/EvaDots/MainWindow.xib
+cCompileXIB /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+cCompileXIB /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+cProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/main.o /Users/Joseph/Documents/EvaDots/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.h
+c000000004D814BC100000000000001E1
+t1300319169
+s481
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m
+c000000004D814BC10000000000000A97
+t1300319169
+s2711
+i"EvaDotsAppDelegate.h"
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.h
+c000000004D814BC100000000000000F0
+t1300319169
+s240
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m
+c000000004D814EC800000000000006AB
+t1300319944
+s1707
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.h
+c000000004D814C4200000000000000EA
+t1300319298
+s234
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m
+c000000004D814C4200000000000005AE
+t1300319298
+s1454
+i"GameViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+c000000004D814EC50000000000004256
+t1300319941
+s16982
+
+N/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+c000000004D814D4900000000000045FF
+t1300319561
+s17919
+
+N/Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch
+c000000004D814BC100000000000000B7
+t1300319169
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/MainWindow.xib
+c000000004D814BC10000000000004E29
+t1300319169
+s20009
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app
+t2
+s0
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app.dSYM
+t2
+s0
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/EvaDots
+t2
+s0
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/EvaDotsViewController.nib
+t1300319947
+s1407
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/GameViewController.nib
+t1300319948
+s1248
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/Info.plist
+t1300319944
+s591
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/MainWindow.nib
+t1300319946
+s1123
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/PkgInfo
+t1300319944
+s8
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDots.LinkFileList
+c000000004D814EC800000000000001F9
+t1300319944
+s505
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsAppDelegate.o
+t1300319951
+s50880
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsViewController.o
+t2
+s0
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/GameViewController.o
+t1300319952
+s37624
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/main.o
+t1300319951
+s6288
+
+N/Users/Joseph/Documents/EvaDots/main.m
+c000000004D814BC1000000000000016B
+t1300319169
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch.gch
+t1300319951
+s15453392
+
+NEvaDots-Info.plist
+c000000004D814BC1000000000000038D
+t1300319169
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322012744#322012744#0(0"0(0#1#0"8643078912#0"0#
+
+CCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012751.774235
+e322012751.924479
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsAppDelegate.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m322012751#322012751#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m8644057600#1873"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator -I/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources/i386 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsAppDelegate.o0#
+
+CCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012751.871954
+e322012751.998946
+r0
+xCompileC
+xbuild/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m: In function '-[EvaDotsViewController startButtonPressed]':
+o/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: 'GameViewController' undeclared (first use in this function)
+o/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: (Each undeclared identifier is reported only once
+o/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: for each function it appears in.)
+o/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: 'gvController' undeclared (first use in this function)
+lSLF07#2@71"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m322012751#322012751#0(624"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m: In function '-[EvaDotsViewController startButtonPressed]':/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: 'GameViewController' undeclared (first use in this function)/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: (Each undeclared identifier is reported only once/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: for each function it appears in.)/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m:41: error: 'gvController' undeclared (first use in this function)2(4@60"'GameViewController' undeclared (first use in this function)322012751#124#136#0(6@63"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m322012744#41#0#41#0#43"'*' undeclared (first use in this function)0(4@54"'gvController' undeclared (first use in this function)322012751#494#130#0(6@63"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m322012744#41#0#41#0#43"'*' undeclared (first use in this function)0(0#0#63"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m8642474464#1879"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator -I/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources/i386 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/EvaDotsViewController.o1#
+
+CCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012751.924588
+e322012752.026051
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/GameViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m322012751#322012752#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m8635469984#1873"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator -I/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources/i386 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/GameViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/main.o /Users/Joseph/Documents/EvaDots/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012751.772785
+e322012751.871834
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/main.o
+x/Users/Joseph/Documents/EvaDots/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Joseph/Documents/EvaDots/main.m322012751#322012751#0(0"0(0#0#38"/Users/Joseph/Documents/EvaDots/main.m8645003840#1837"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator -I/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources/i386 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/main.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+s322012747.800592
+e322012748.395327
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+lSLF07#2@41"CompileXIB Classes/GameViewController.xib322012747#322012748#0(0"0(0#0#62"/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib8641594048#573"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/GameViewController.nib /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+s322012744.478565
+e322012747.833847
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+lSLF07#2@36"CompileXIB EvaDotsViewController.xib322012744#322012747#0(0"0(0#0#57"/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib8642478752#571"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/EvaDotsViewController.nib /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/MainWindow.xib
+s322012744.477729
+e322012747.800454
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322012744#322012747#0(0"0(0#0#46"/Users/Joseph/Documents/EvaDots/MainWindow.xib8642680320#549"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/MainWindow.nib /Users/Joseph/Documents/EvaDots/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app.dSYM /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/EvaDots
+r0
+
+CLd /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/EvaDots normal i386
+r0
+
+CProcessInfoPlistFile /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/Info.plist EvaDots-Info.plist
+s322012744.442554
+e322012744.477625
+r1
+xProcessInfoPlistFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/Info.plist
+xEvaDots-Info.plist
+lSLF07#2@26"Process EvaDots-Info.plist322012744#322012744#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/EvaDots-Info.plist8645028832#458"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EvaDots-Info.plist -genpkginfo /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app/Info.plist0#
+
+CProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012748.395623
+e322012751.772628
+r1
+xProcessPCH
+x/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch.gch
+xEvaDots_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile EvaDots_Prefix.pch322012748#322012751#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch8651395136#1736"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator -I/Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources/i386 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphonesimulator/EvaDots.build/DerivedSources -c /Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch -o /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-aowusufghsrfwsauvnkfckgdedfr/EvaDots_Prefix.pch.gch0#
+
+CTouch /Users/Joseph/Documents/EvaDots/build/Debug-iphonesimulator/EvaDots.app
+r0
+

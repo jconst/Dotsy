@@ -1,0 +1,2 @@
+/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m: In function '-[AboutViewController contactUsPressed]':
+/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m:40: warning: class 'AboutViewController' does not implement the 'MFMailComposeViewControllerDelegate' protocol

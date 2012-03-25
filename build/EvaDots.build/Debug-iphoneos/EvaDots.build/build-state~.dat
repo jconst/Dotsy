@@ -1,0 +1,1100 @@
+TEvaDots
+v7
+r0
+t324180737.392143
+cCheck dependencies
+cCpResource build/Debug-iphoneos/EvaDots.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Info.plist EvaDots-Info.plist
+cCompileXIB /Users/Joseph/Documents/EvaDots/MainWindow.xib
+cCompileXIB /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+cCompileXIB /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutButton.png Images/AboutButton.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/arrow.png Images/arrow.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/background.png Images/background.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/BlueDot.png Images/BlueDot.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GreenDot.png Images/GreenDot.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/header.png Images/header.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresButton.png Images/HighScoresButton.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Logo.png Images/Logo.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/OrangeDot.png Images/OrangeDot.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/pause.png Images/pause.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/play.png Images/play.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PlayButton.png Images/PlayButton.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PurpleDot.png Images/PurpleDot.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/RedDot.png Images/RedDot.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsButton.png Images/SettingsButton.png
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/YellowDot.png Images/YellowDot.png
+cCompileXIB /Users/Joseph/Documents/EvaDots/SettingsViewController.xib
+cCompileXIB /Users/Joseph/Documents/EvaDots/AboutViewController.xib
+cCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Codevs.png ../../Pictures/Codevs.png
+cCompileXIB /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib
+cProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/main.o /Users/Joseph/Documents/EvaDots/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/SettingsViewController.o /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/AboutViewController.o /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/HighScoresViewController.o /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameCenterManager.o /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/main.o /Users/Joseph/Documents/EvaDots/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots normal armv6
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/SettingsViewController.o /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/AboutViewController.o /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/HighScoresViewController.o /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameCenterManager.o /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots normal armv7
+cCreateUniversalBinary /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots normal "armv6 armv7"
+cGenerateDSYMFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app.dSYM /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots
+cProcessProductPackaging "/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision" /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision
+cTouch /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent
+cCodeSign /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC129A40000000000289BB0
+t1287727524
+s2661296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004CC129850000000000000348
+t1287727493
+s840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Joseph/Documents/EvaDots/../../Pictures/Codevs.png
+c000000004D8BB48600000000000028B7
+t1301001350
+s10423
+
+N/Users/Joseph/Documents/EvaDots/AboutViewController.h
+c000000004DA1D0B200000000000001D2
+t1302450354
+s466
+i<UIKit/UIKit.h>
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/AboutViewController.xib
+c000000004DA1D0DF0000000000007F5F
+t1302450399
+s32607
+
+N/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.h
+c000000004DA1D0B200000000000001D2
+t1302450354
+s466
+i<UIKit/UIKit.h>
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m
+c000000004DA1D0B80000000000000705
+t1302450360
+s1797
+i"AboutViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.h
+c000000004DA1D0A10000000000000197
+t1302450337
+s407
+i<UIKit/UIKit.h>
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m
+c000000004DA1D09D0000000000000606
+t1302450333
+s1542
+i"SettingsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.h
+c000000004D97FDA80000000000000251
+t1301806504
+s593
+i<UIKit/UIKit.h>
+i"GameViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m
+c000000004D9800090000000000000B40
+t1301807113
+s2880
+i"EvaDotsAppDelegate.h"
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.h
+c000000004DA260AA0000000000000279
+t1302487210
+s633
+i<UIKit/UIKit.h>
+i"GameViewController.h"
+i"EvaDotsAppDelegate.h"
+i"AboutViewController.h"
+i"HighScoresViewController.h"
+i"SettingsViewController.h"
+i"GameCenterManager.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m
+c000000004DA25E3E0000000000000BAE
+t1302486590
+s2990
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.h
+c000000004CE2F8350000000000000EA4
+t1289943093
+s3748
+i<Foundation/Foundation.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m
+c000000004CE2F83500000000000023B3
+t1289943093
+s9139
+i"GameCenterManager.h"
+i<GameKit/GameKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.h
+c000000004DA1DA150000000000000456
+t1302452757
+s1110
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m
+c000000004DA25E3E0000000000001955
+t1302486590
+s6485
+i"GameViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+c000000004D97F98B0000000000006B0F
+t1301805451
+s27407
+
+N/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.h
+c000000004DA25E3E00000000000001B8
+t1302486590
+s440
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m
+c000000004DA1D0A2000000000000060D
+t1302450338
+s1549
+i"HighScoresViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib
+c000000004DA1D0CE0000000000005F71
+t1302450382
+s24433
+
+N/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+c000000004DA1CE8A000000000000756C
+t1302449802
+s30060
+
+N/Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch
+c000000004D814BC100000000000000B7
+t1300319169
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Documents/EvaDots/Images/AboutButton.png
+c000000004D98EFD3000000000000068F
+t1301868499
+s1679
+
+N/Users/Joseph/Documents/EvaDots/Images/BlueDot.png
+c000000004D9E149C0000000000000CD8
+t1302205596
+s3288
+
+N/Users/Joseph/Documents/EvaDots/Images/GreenDot.png
+c000000004D97F6EB0000000000000C2E
+t1301804779
+s3118
+
+N/Users/Joseph/Documents/EvaDots/Images/HighScoresButton.png
+c000000004D98EF690000000000000A5B
+t1301868393
+s2651
+
+N/Users/Joseph/Documents/EvaDots/Images/Logo.png
+c000000004DA0D24100000000000013CD
+t1302385217
+s5069
+
+N/Users/Joseph/Documents/EvaDots/Images/OrangeDot.png
+c000000004D9E79C90000000000000C08
+t1302231497
+s3080
+
+N/Users/Joseph/Documents/EvaDots/Images/PlayButton.png
+c000000004D98EF040000000000000624
+t1301868292
+s1572
+
+N/Users/Joseph/Documents/EvaDots/Images/PurpleDot.png
+c000000004D9E7A1A0000000000000CFB
+t1302231578
+s3323
+
+N/Users/Joseph/Documents/EvaDots/Images/RedDot.png
+c000000004D97F7010000000000000C76
+t1301804801
+s3190
+
+N/Users/Joseph/Documents/EvaDots/Images/SettingsButton.png
+c000000004D98EF3A0000000000000969
+t1301868346
+s2409
+
+N/Users/Joseph/Documents/EvaDots/Images/YellowDot.png
+c000000004D9E799B0000000000000C17
+t1302231451
+s3095
+
+N/Users/Joseph/Documents/EvaDots/Images/arrow.png
+c000000004D97EDC6000000000000014F
+t1301802438
+s335
+
+N/Users/Joseph/Documents/EvaDots/Images/background.png
+c000000004D97F25B000000000000160E
+t1301803611
+s5646
+
+N/Users/Joseph/Documents/EvaDots/Images/header.png
+c000000004D97F3750000000000000123
+t1301803893
+s291
+
+N/Users/Joseph/Documents/EvaDots/Images/pause.png
+c000000004D97EE970000000000000093
+t1301802647
+s147
+
+N/Users/Joseph/Documents/EvaDots/Images/play.png
+c000000004D97F108000000000000022A
+t1301803272
+s554
+
+N/Users/Joseph/Documents/EvaDots/MainWindow.xib
+c000000004D814BC10000000000004E29
+t1300319169
+s20009
+
+N/Users/Joseph/Documents/EvaDots/SettingsViewController.h
+c000000004DA1D0A10000000000000197
+t1302450337
+s407
+i<UIKit/UIKit.h>
+i"EvaDotsViewController.h"
+
+N/Users/Joseph/Documents/EvaDots/SettingsViewController.xib
+c000000004DA1D0FD0000000000005EA5
+t1302450429
+s24229
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+t1302487937
+s1088
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app.dSYM
+t1302487932
+s102
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutButton.png
+t1302487924
+s1689
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutViewController.nib
+t1302487925
+s2394
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/BlueDot.png
+t1302487924
+s3259
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Codevs.png
+t1302487925
+s10778
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots
+t1302487932
+s127152
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDotsViewController.nib
+t1302487923
+s2596
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GameViewController.nib
+t1302487924
+s2361
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GreenDot.png
+t1302487924
+s3240
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresButton.png
+t1302487924
+s2365
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresViewController.nib
+t1302487926
+s1362
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Info.plist
+t1302487923
+s769
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Logo.png
+t1302487924
+s5794
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/MainWindow.nib
+t1302487923
+s1123
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/OrangeDot.png
+t1302487924
+s3265
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PkgInfo
+t1302487923
+s8
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PlayButton.png
+t1302487925
+s1543
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PurpleDot.png
+t1302487925
+s3283
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/RedDot.png
+t1302487925
+s3249
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/ResourceRules.plist
+t1302487923
+s485
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsButton.png
+t1302487925
+s2108
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsViewController.nib
+t1302487925
+s1359
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/YellowDot.png
+t1302487925
+s3259
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/arrow.png
+t1302487924
+s457
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/background.png
+t1302487924
+s7115
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision
+t1302487932
+s7173
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/header.png
+t1302487924
+s360
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/pause.png
+t1302487925
+s228
+
+N/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/play.png
+t1302487925
+s623
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent
+t1302487932
+s420
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/AboutViewController.o
+t1302487931
+s44740
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots
+t1302487932
+s62264
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots.LinkFileList
+c000000004DA2637200000000000003D7
+t1302487922
+s983
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsAppDelegate.o
+t1302487930
+s53124
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsViewController.o
+t1302487930
+s50132
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameCenterManager.o
+t1302487931
+s36132
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameViewController.o
+t1302487931
+s70964
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/HighScoresViewController.o
+t1302487931
+s39876
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/SettingsViewController.o
+t1302487931
+s39868
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/main.o
+t1302487930
+s6432
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/AboutViewController.o
+t1302487931
+s44680
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots
+t1302487932
+s57520
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots.LinkFileList
+c000000004DA2637300000000000003D7
+t1302487923
+s983
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsAppDelegate.o
+t1302487931
+s53008
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsViewController.o
+t1302487931
+s50008
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameCenterManager.o
+t1302487932
+s35444
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameViewController.o
+t1302487931
+s68948
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/HighScoresViewController.o
+t1302487931
+s39824
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/SettingsViewController.o
+t1302487931
+s39816
+
+N/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/main.o
+t1302487931
+s6416
+
+N/Users/Joseph/Documents/EvaDots/main.m
+c000000004D814BC1000000000000016B
+t1300319169
+s363
+i<UIKit/UIKit.h>
+
+N/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision
+c000000004DA25FF70000000000001C05
+t1302487031
+s7173
+
+N/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch.gch
+t1302487930
+s10446552
+
+N/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch.gch
+t1302487930
+s9983704
+
+NEvaDots-Info.plist
+c000000004D9CD9A40000000000000379
+t1302124964
+s889
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324180722#324180723#0(263"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Joseph Constan (EVVWZU6D52)', 'iPhone Developer: Timothy  Rauh Jr.  (UTKGM4GBZ8)' -- 'iPhone Developer: Joseph Constan (EVVWZU6D52)' will be used.1(22@255"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Joseph Constan (EVVWZU6D52)', 'iPhone Developer: Timothy  Rauh Jr.  (UTKGM4GBZ8)' -- 'iPhone Developer: Joseph Constan (EVVWZU6D52)' will be used.324180722#18446744073709551615#0#0(1@0"0(0#1#0"8644950208#0"0#
+
+CCodeSign /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+s324180732.710481
+e324180737.392045
+r1
+xCodeSign
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/EvaDots.app324180732#324180737#0(0"0(0#0#64"/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app8638430272#622"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Joseph Constan (EVVWZU6D52)" --resource-rules=/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/ResourceRules.plist --entitlements /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/AboutViewController.o /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180731.065709
+e324180731.222462
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/AboutViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m324180731#324180731#0(0"0(0#0#64"/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m8665758176#1688"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/AboutViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180730.481746
+e324180730.891728
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsAppDelegate.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m324180730#324180730#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m8672455200#1683"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsAppDelegate.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180730.865540
+e324180730.982889
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m324180730#324180730#0(0"0(0#0#63"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m8668528064#1689"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDotsViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameCenterManager.o /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180731.201645
+e324180731.388286
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameCenterManager.o
+x/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m324180731#324180731#0(0"0(0#0#59"/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m8672890880#1681"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameCenterManager.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180730.891864
+e324180731.065586
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m324180730#324180731#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m8667375712#1683"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/GameViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/HighScoresViewController.o /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180731.109510
+e324180731.201534
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/HighScoresViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m324180731#324180731#0(0"0(0#0#66"/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m8673902752#1695"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/HighScoresViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/SettingsViewController.o /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180730.983007
+e324180731.109383
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/SettingsViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m324180730#324180731#0(0"0(0#0#67"/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m8667229568#1694"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/SettingsViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/main.o /Users/Joseph/Documents/EvaDots/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180730.480374
+e324180730.865431
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/main.o
+x/Users/Joseph/Documents/EvaDots/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Joseph/Documents/EvaDots/main.m324180730#324180730#0(0"0(0#0#38"/Users/Joseph/Documents/EvaDots/main.m8673470240#1647"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/main.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/AboutViewController.o /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.768437
+e324180731.865106
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/AboutViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m324180731#324180731#0(0"0(0#0#64"/Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m8670341760#1688"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/../AboutViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/AboutViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsAppDelegate.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.296940
+e324180731.408149
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsAppDelegate.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m324180731#324180731#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m8666633152#1683"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsAppDelegate.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsAppDelegate.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsViewController.o /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.408262
+e324180731.522816
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m324180731#324180731#0(0"0(0#0#63"/Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m8603542912#1689"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/EvaDotsViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDotsViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameCenterManager.o /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.955420
+e324180732.085607
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameCenterManager.o
+x/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m324180731#324180732#0(0"0(0#0#59"/Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m8668669600#1681"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/GameCenterManager.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameCenterManager.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameViewController.o /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.522936
+e324180731.687678
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m324180731#324180731#0(0"0(0#0#60"/Users/Joseph/Documents/EvaDots/Classes/GameViewController.m8647564096#1683"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/GameViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/GameViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/HighScoresViewController.o /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.865602
+e324180731.955288
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/HighScoresViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m324180731#324180731#0(0"0(0#0#66"/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m8670420800#1695"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/HighScoresViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/SettingsViewController.o /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.687801
+e324180731.768309
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/SettingsViewController.o
+x/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m324180731#324180731#0(0"0(0#0#67"/Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m8672004960#1694"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/Classes/../SettingsViewController.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/SettingsViewController.o0#
+
+CCompileC build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/main.o /Users/Joseph/Documents/EvaDots/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180731.222583
+e324180731.296820
+r1
+xCompileC
+xbuild/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/main.o
+x/Users/Joseph/Documents/EvaDots/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Joseph/Documents/EvaDots/main.m324180731#324180731#0(0"0(0#0#38"/Users/Joseph/Documents/EvaDots/main.m8669617344#1647"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -include /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch -c /Users/Joseph/Documents/EvaDots/main.m -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/AboutViewController.xib
+s324180725.206482
+e324180725.746890
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/AboutViewController.xib
+lSLF07#2@34"CompileXIB AboutViewController.xib324180725#324180725#0(0"0(0#0#55"/Users/Joseph/Documents/EvaDots/AboutViewController.xib8613472000#539"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutViewController.nib /Users/Joseph/Documents/EvaDots/AboutViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+s324180723.890627
+e324180724.708809
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib
+lSLF07#2@41"CompileXIB Classes/GameViewController.xib324180723#324180724#0(0"0(0#0#62"/Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib8674013888#545"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GameViewController.nib /Users/Joseph/Documents/EvaDots/Classes/GameViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib
+s324180725.746992
+e324180726.193289
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib
+lSLF07#2@47"CompileXIB Classes/HighScoresViewController.xib324180725#324180726#0(0"0(0#0#68"/Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib8604922336#557"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresViewController.nib /Users/Joseph/Documents/EvaDots/Classes/HighScoresViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+s324180723.081486
+e324180724.084241
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib
+lSLF07#2@36"CompileXIB EvaDotsViewController.xib324180723#324180724#0(0"0(0#0#57"/Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib8666369568#543"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDotsViewController.nib /Users/Joseph/Documents/EvaDots/EvaDotsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/MainWindow.xib
+s324180723.080691
+e324180723.890525
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324180723#324180723#0(0"0(0#0#46"/Users/Joseph/Documents/EvaDots/MainWindow.xib8666836352#521"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/MainWindow.nib /Users/Joseph/Documents/EvaDots/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Joseph/Documents/EvaDots/SettingsViewController.xib
+s324180725.168322
+e324180725.677231
+r1
+xCompileXIB
+x/Users/Joseph/Documents/EvaDots/SettingsViewController.xib
+lSLF07#2@37"CompileXIB SettingsViewController.xib324180725#324180725#0(0"0(0#0#58"/Users/Joseph/Documents/EvaDots/SettingsViewController.xib8617110784#545"    cd /Users/Joseph/Documents/EvaDots    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsViewController.nib /Users/Joseph/Documents/EvaDots/SettingsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutButton.png Images/AboutButton.png
+s324180724.084356
+e324180724.678198
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutButton.png
+xImages/AboutButton.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/EvaDots.app/AboutButton.png Images/AboutButton.png324180724#324180724#0(0"0(0#0#54"/Users/Joseph/Documents/EvaDots/Images/AboutButton.png8673336864#556"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/AboutButton.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/AboutButton.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/BlueDot.png Images/BlueDot.png
+s324180724.761995
+e324180724.822386
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/BlueDot.png
+xImages/BlueDot.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/EvaDots.app/BlueDot.png Images/BlueDot.png324180724#324180724#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/Images/BlueDot.png8667298112#548"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/BlueDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/BlueDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Codevs.png ../../Pictures/Codevs.png
+s324180725.677347
+e324180725.773485
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Codevs.png
+x../../Pictures/Codevs.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/EvaDots.app/Codevs.png ../../Pictures/Codevs.png324180725#324180725#0(0"0(0#0#57"/Users/Joseph/Documents/EvaDots/../../Pictures/Codevs.png8611949536#554"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/../../Pictures/Codevs.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Codevs.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GreenDot.png Images/GreenDot.png
+s324180724.820003
+e324180724.889976
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GreenDot.png
+xImages/GreenDot.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/EvaDots.app/GreenDot.png Images/GreenDot.png324180724#324180724#0(0"0(0#0#51"/Users/Joseph/Documents/EvaDots/Images/GreenDot.png8666811232#550"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/GreenDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/GreenDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresButton.png Images/HighScoresButton.png
+s324180724.890083
+e324180724.953509
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresButton.png
+xImages/HighScoresButton.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/EvaDots.app/HighScoresButton.png Images/HighScoresButton.png324180724#324180724#0(0"0(0#0#59"/Users/Joseph/Documents/EvaDots/Images/HighScoresButton.png8648806656#566"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/HighScoresButton.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/HighScoresButton.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Logo.png Images/Logo.png
+s324180724.894597
+e324180724.941342
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Logo.png
+xImages/Logo.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/EvaDots.app/Logo.png Images/Logo.png324180724#324180724#0(0"0(0#0#47"/Users/Joseph/Documents/EvaDots/Images/Logo.png8646505120#542"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/Logo.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Logo.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/OrangeDot.png Images/OrangeDot.png
+s324180724.941445
+e324180725.002984
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/OrangeDot.png
+xImages/OrangeDot.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/EvaDots.app/OrangeDot.png Images/OrangeDot.png324180724#324180725#0(0"0(0#0#52"/Users/Joseph/Documents/EvaDots/Images/OrangeDot.png8641187680#552"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/OrangeDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/OrangeDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PlayButton.png Images/PlayButton.png
+s324180725.004372
+e324180725.066753
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PlayButton.png
+xImages/PlayButton.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/EvaDots.app/PlayButton.png Images/PlayButton.png324180725#324180725#0(0"0(0#0#53"/Users/Joseph/Documents/EvaDots/Images/PlayButton.png8636659328#554"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/PlayButton.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PlayButton.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PurpleDot.png Images/PurpleDot.png
+s324180725.055991
+e324180725.085531
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PurpleDot.png
+xImages/PurpleDot.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/EvaDots.app/PurpleDot.png Images/PurpleDot.png324180725#324180725#0(0"0(0#0#52"/Users/Joseph/Documents/EvaDots/Images/PurpleDot.png8628039520#552"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/PurpleDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PurpleDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/RedDot.png Images/RedDot.png
+s324180725.066871
+e324180725.159043
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/RedDot.png
+xImages/RedDot.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/EvaDots.app/RedDot.png Images/RedDot.png324180725#324180725#0(0"0(0#0#49"/Users/Joseph/Documents/EvaDots/Images/RedDot.png8625715584#546"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/RedDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/RedDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsButton.png Images/SettingsButton.png
+s324180725.085641
+e324180725.168215
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsButton.png
+xImages/SettingsButton.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/EvaDots.app/SettingsButton.png Images/SettingsButton.png324180725#324180725#0(0"0(0#0#57"/Users/Joseph/Documents/EvaDots/Images/SettingsButton.png8625350016#562"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/SettingsButton.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/SettingsButton.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/YellowDot.png Images/YellowDot.png
+s324180725.159138
+e324180725.206353
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/YellowDot.png
+xImages/YellowDot.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/EvaDots.app/YellowDot.png Images/YellowDot.png324180725#324180725#0(0"0(0#0#52"/Users/Joseph/Documents/EvaDots/Images/YellowDot.png8619675040#552"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/YellowDot.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/YellowDot.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/arrow.png Images/arrow.png
+s324180724.678496
+e324180724.761878
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/arrow.png
+xImages/arrow.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/EvaDots.app/arrow.png Images/arrow.png324180724#324180724#0(0"0(0#0#48"/Users/Joseph/Documents/EvaDots/Images/arrow.png8670443744#544"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/arrow.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/arrow.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/background.png Images/background.png
+s324180724.709034
+e324180724.819805
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/background.png
+xImages/background.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/EvaDots.app/background.png Images/background.png324180724#324180724#0(0"0(0#0#53"/Users/Joseph/Documents/EvaDots/Images/background.png8668803264#554"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/background.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/background.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/header.png Images/header.png
+s324180724.822478
+e324180724.894487
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/header.png
+xImages/header.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/EvaDots.app/header.png Images/header.png324180724#324180724#0(0"0(0#0#49"/Users/Joseph/Documents/EvaDots/Images/header.png8664252736#546"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/header.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/header.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/pause.png Images/pause.png
+s324180724.953630
+e324180725.004297
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/pause.png
+xImages/pause.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/EvaDots.app/pause.png Images/pause.png324180724#324180725#0(0"0(0#0#48"/Users/Joseph/Documents/EvaDots/Images/pause.png8638796096#544"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/pause.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/pause.png0#
+
+CCopyPNGFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/play.png Images/play.png
+s324180725.003116
+e324180725.055853
+r1
+xCopyPNGFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/play.png
+xImages/play.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/EvaDots.app/play.png Images/play.png324180725#324180725#0(0"0(0#0#47"/Users/Joseph/Documents/EvaDots/Images/play.png8637954496#542"    cd /Users/Joseph/Documents/EvaDots    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Joseph/Documents/EvaDots/Images/play.png /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/play.png0#
+
+CCpResource build/Debug-iphoneos/EvaDots.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s324180723.057468
+e324180723.080371
+r1
+xCpResource
+xbuild/Debug-iphoneos/EvaDots.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist324180723#324180723#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5922070114188801024#480"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app0#
+
+CCreateUniversalBinary /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots normal "armv6 armv7"
+s324180732.409919
+e324180732.484815
+r1
+xCreateUniversalBinary
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots
+xnormal
+xarmv6 armv7
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/EvaDots.app/EvaDots normal "armv6 armv7"324180732#324180732#0(0"0(0#0#43"/Users/Joseph/Documents/EvaDots/armv6 armv78674667712#490"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots -output /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots0#
+
+CGenerateDSYMFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app.dSYM /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots
+s324180732.484924
+e324180732.608393
+r1
+xGenerateDSYMFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app.dSYM
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/EvaDots.app.dSYM build/Debug-iphoneos/EvaDots.app/EvaDots324180732#324180732#0(0"0(0#0#72"/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots8673871072#341"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/EvaDots -o /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app.dSYM0#
+
+CLd /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots normal armv6
+s324180731.388393
+e324180732.193116
+r1
+xLd
+x/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots
+xnormal
+xarmv6
+lSLF07#2@114"Link /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots324180731#324180732#0(0"0(0#0#0"8656583296#843"    cd /Users/Joseph/Documents/EvaDots    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -filelist /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv6/EvaDots0#
+
+CLd /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots normal armv7
+s324180732.085728
+e324180732.409786
+r1
+xLd
+x/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots
+xnormal
+xarmv7
+lSLF07#2@114"Link /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots324180732#324180732#0(0"0(0#0#0"8667321024#843"    cd /Users/Joseph/Documents/EvaDots    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -filelist /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/Objects-normal/armv7/EvaDots0#
+
+CProcessInfoPlistFile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Info.plist EvaDots-Info.plist
+s324180723.058633
+e324180723.080620
+r1
+xProcessInfoPlistFile
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Info.plist
+xEvaDots-Info.plist
+lSLF07#2@26"Process EvaDots-Info.plist324180723#324180723#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/EvaDots-Info.plist8667730048#534"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EvaDots-Info.plist -genpkginfo /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/ResourceRules.plist -o /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/Info.plist0#
+
+CProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324180726.194619
+e324180730.480234
+r1
+xProcessPCH
+x/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch.gch
+xEvaDots_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile EvaDots_Prefix.pch324180726#324180730#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch8596599904#1552"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv7 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -c /Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch -o /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-dubvsrbldyonqwbwdcwacvnnmtww/EvaDots_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch.gch EvaDots_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324180726.193559
+e324180730.279808
+r1
+xProcessPCH
+x/var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch.gch
+xEvaDots_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile EvaDots_Prefix.pch324180726#324180730#0(0"0(0#0#50"/Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch8603165376#1552"    cd /Users/Joseph/Documents/EvaDots    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-generated-files.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-own-target-headers.hmap -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-all-target-headers.hmap -iquote /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots-project-headers.hmap -F/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos -I/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/include -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources/armv6 -I/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/DerivedSources -c /Users/Joseph/Documents/EvaDots/EvaDots_Prefix.pch -o /var/folders/os/osA-ELdpGyKZW2mvw1s0TE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EvaDots_Prefix-etsghvckdphcdneraamrblwpomsi/EvaDots_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision" /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision
+s324180732.608520
+e324180732.688397
+r1
+xProcessProductPackaging
+x/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision" build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision324180732#324180732#0(0"0(0#0#89"/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision8640002304#410"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Joseph/Library/MobileDevice/Provisioning Profiles/1813FDA5-05D8-40D3-8100-22E024E968A3.mobileprovision" -o /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent
+s324180732.693199
+e324180732.710403
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent324180732#324180732#0(0"0(0#0#94"/Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent8645651360#418"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/Joseph/Documents/EvaDots/build/EvaDots.build/Debug-iphoneos/EvaDots.build/EvaDots.xcent0#
+
+CTouch /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+s324180732.688479
+e324180732.692982
+r1
+xTouch
+x/Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app
+lSLF07#2@70"Touch /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app324180732#324180732#0(0"0(0#0#0"8666328864#250"    cd /Users/Joseph/Documents/EvaDots    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Joseph/Documents/EvaDots/build/Debug-iphoneos/EvaDots.app0#
+
